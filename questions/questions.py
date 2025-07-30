@@ -1034,7 +1034,8 @@ questions = [
             "A. UI action",
             "B. Table",
             "C. Fields to update",
-            "D. Who can run"
+            "D. Who can run",
+            "E. When to run"
         ],
         "answer": [
             "B. Table",
@@ -1527,7 +1528,8 @@ questions = [
             "A. Local Sources (i.e. XML, CSV, Excel)",
             "B. Implementation Spoke",
             "C. DataHub",
-            "D. JDBC Connection"
+            "D. JDBC Connection",
+            "E. LDAP"
         ],
         "answer": [
             "A. Local Sources (i.e. XML, CSV, Excel)",
@@ -2284,7 +2286,8 @@ questions = [
             "A. List Links",
             "B. List Choices",
             "C. List Buttons",
-            "D. List Override"
+            "D. List Override",
+            "E. List Context Menu"
         ],
         "answer": [
             "A. List Links",
@@ -2529,7 +2532,8 @@ questions = [
             "A. Look for Update",
             "B. Create Record",
             "C. Ask for Approval",
-            "D. Look Up Record"
+            "D. Look Up Record",
+            "E. Update Record"
         ],
         "answer": [
             "B. Create Record",
