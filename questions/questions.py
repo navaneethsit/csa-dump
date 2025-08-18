@@ -1090,7 +1090,8 @@ questions = [
             "A. System Properties > Security",
             "B. Utilities > Migrate Security",
             "C. System Security > Security",
-            "D. Self-Service > My Access"
+            "D. Self-Service > My Access",
+            "E. System Security > Access Control (ACL)"
         ],
         "answer": [
             "A. System Properties > Security",
@@ -1811,7 +1812,9 @@ questions = [
             "A. Browser tab title",
             "B. Module text color",
             "C. Preferred browser",
-            "D. Base theme"
+            "D. Base theme",
+            "E. Banner image",
+            "F. System date format"
         ],
         "answer": [
             "A. Browser tab title",
@@ -1911,7 +1914,8 @@ questions = [
             "A. cmdb",
             "B. sn_cmdb_bak",
             "C. cmdb_rel_ci",
-            "D. sn_cmdb"
+            "D. sn_cmdb",
+            "E. cmdb_ci"
         ],
         "answer": [
             "A. cmdb",
@@ -1985,7 +1989,8 @@ questions = [
             "A. The associated knowledge base",
             "B. Settings for handling inactive user accounts",
             "C. Under what conditions is the notification sent",
-            "D. Who receives the notification"
+            "D. Who receives the notification",
+            "E. What content the notification contains"
         ],
         "answer": [
             "C. Under what conditions is the notification sent",
@@ -2438,7 +2443,8 @@ questions = [
             "A. Add",
             "B. Edit",
             "C. Publish",
-            "D. Manage"
+            "D. Manage",
+            "E. New"
         ],
         "answer": [
             "A. Add",
@@ -2773,8 +2779,10 @@ questions = [
         "options": [
             "A. Super Incident table is a Parent table",
             "B. Incident table is a Child table",
-            "C. Super Incident table is a Base table",
-            "D. Incident table is a Base table"
+            "C. Super Incident table is a Child table",
+            "D. Task table is a Base table",
+            "E. Task table is a Parent table",
+            "F. Incident table is a Parent table"
         ],
         "answer": [
             "B. Incident table is a Child table",
@@ -2810,7 +2818,8 @@ questions = [
             "A. Tables outside of ServiceNow",
             "B. Tables within the global scope",
             "C. Related tables, using Dot Walk",
-            "D. Tables which allow write access to other applications"
+            "D. Tables which allow write access to other applications",
+            "E. Tables within the same scope as the import set"
         ],
         "answer": [
             "B. Tables within the global scope",
@@ -3002,7 +3011,8 @@ questions = [
             "A. A record of sc_req_item table",
             "B. A record of sc_task",
             "C. An incident record",
-            "D. A change record"
+            "D. A change record",
+            "E. A record of sc_request table"
         ],
         "answer": [
             "A. A record of sc_req_item table",
