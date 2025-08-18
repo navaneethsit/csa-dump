@@ -76,7 +76,8 @@ if st.button("Submit All Answers ✅"):
             "question": q['question'],
             "user_answer": user_ans,
             "correct_answer": correct_ans,
-            "is_correct": is_correct
+            "is_correct": is_correct,
+            "explanation": q.get('explanation', 'No explanation available.')
         })
 
     # --------------------
@@ -148,6 +149,7 @@ if st.button("Submit All Answers ✅"):
         st.markdown(f"**Question:** {res['question']}")
         st.markdown(f"**Your Answer:** {res['user_answer']}")
         st.markdown(f"**Correct Answer:** {res['correct_answer']}")
+        st.markdown(f"**Explanation:** {res['explanation']}")
         st.markdown("---")
 
     st.button("Restart Quiz 🔄", on_click=lambda: st.session_state.clear())
